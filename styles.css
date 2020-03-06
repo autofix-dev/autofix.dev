@@ -1,0 +1,18 @@
+html, body {
+  font-family: sans-serif;
+}
+#teaser {
+  text-align: center;
+  min-width: 300px;
+  margin-top: 20vh;
+}
+#logo {
+  width: 150px;
+  margin-right: -50px;
+}
+.icon {
+  width: 1.5em;
+}
+.grey {
+  color: grey;
+}
