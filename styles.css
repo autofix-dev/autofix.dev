@@ -1,18 +1,23 @@
 html, body {
   font-family: sans-serif;
 }
-#teaser {
-  text-align: center;
-  min-width: 300px;
-  margin-top: 20vh;
+.btn {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
 }
-#logo {
-  width: 150px;
-  margin-right: -50px;
+.btn:hover {
+  opacity: 85%;
 }
-.icon {
-  width: 1.5em;
+.btn > :not(:first-child) {
+  margin-left: 0.5rem;
 }
-.grey {
-  color: grey;
+.btn-black {
+  color: white;
+  background-color: black;
+}
+.btn-green {
+  color: white;
+  background-color: #028a0f;
 }
